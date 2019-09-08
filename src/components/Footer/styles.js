@@ -5,16 +5,12 @@ export const Container = styled.footer`
   border-top: 2px solid gray;
   display: flex;
   font-size: 0.9rem;
+  height: 60px;
   justify-content: flex-end;
   margin-bottom: 0;
-  margin-top: 20px;
-  min-height: 60px;
   width: 100%;
 
   p {
-    align-items: center;
-    display: flex;
-    justify-content: center;
     margin-right: 0.5rem;
 
     a {
