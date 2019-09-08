@@ -13,8 +13,6 @@ export default createGlobalStyle`
   body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    /* background: #15b0d2; */
-    /* background: #374045; */
     background: #282a35;
     font-family: 'Montserrat', sans-serif;
     color: #fff;

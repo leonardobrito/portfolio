@@ -4,7 +4,10 @@ import { Container } from './styles';
 
 const Footer = () => (
   <Container>
-    <p>© Copyright Élida Maria 2019</p>
+    <p>
+      © Copyright Élida Maria &nbsp;
+      {new Date().getFullYear()}
+    </p>
     <span role="img" aria-label="Design e desenvolvimento">
       - 👨‍💻&nbsp;
     </span>

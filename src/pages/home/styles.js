@@ -2,41 +2,59 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  color: #000;
   height: 100%;
   padding: 10px;
-  color: #000;
+  width: 100%;
 `;
 
 export const List = styled.div`
-  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+`;
+
+export const ListDescription = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  max-width: 1000px;
+  padding-left: 10px;
+  width: 100%;
+
+  h3 {
+    color: #fff;
+  }
+
+  p {
+    color: #b3b3b3;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
+`;
+
+export const ListContent = styled.div`
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 `;
 
 export const Work = styled(Link)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px;
   margin: 0 10px 20px 10px;
   text-decoration: none;
 
   img {
-    height: 250px;
     border-radius: 5px;
-  }
-  strong {
-    font-size: 13px;
-    margin-top: 10px;
-    color: #fff;
-  }
-
-  p {
-    line-height: 22px;
-    margin-top: 5px;
-    font-size: 13px;
-    color: #b3b3b3;
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: contain;
   }
 
   &:hover img {

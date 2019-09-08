@@ -6,10 +6,10 @@ const Header = () => (
   <Container>
     <Nav>
       <a href="/">Início</a>
-      <a href="/">Sobre</a>
-      <a href="/">Contato</a>
+      <a href="/about">Sobre</a>
+      <a href="/contact">Contato</a>
     </Nav>
-    <h1>ÉLIDA MARIA</h1>
+    <h2>Élida Maria</h2>
   </Container>
 );
 

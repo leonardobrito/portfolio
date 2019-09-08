@@ -1,24 +1,26 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 100%;
 `;
 
 export const Container = styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex: 1;
+  height: 100%;
+  width: 100%;
 `;
 
 export const Content = styled.div`
-  width: 100%;
-  max-width: 900px;
-  height: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* background-color: red; */
+  height: 100%;
+  max-width: 1100px;
+  width: 100%;
+  width: 100%;
 `;
